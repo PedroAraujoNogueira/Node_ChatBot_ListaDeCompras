@@ -1,4 +1,4 @@
-const env = require('../../.env')
+const env = require('../.env')
 const Telegraf = require('telegraf')
 const Extra = require('telegraf/extra')
 const Markup = require('telegraf/markup')
@@ -21,6 +21,7 @@ bot.start(async ctx => {
 
 bot.use((ctx, next) => {
     const chatId = ctx.chat.id
+    console.log(ctx.chat)
     if(!dados.hasOwnProperty(chatId)){ // O método hasOwnProperty() retorna um booleano indicando se o objeto possui a propriedade especificada como uma propriedade definida no próprio objeto em questão (ao contrário de uma propriedade herdada).
         dados[chatId] = []
     }
