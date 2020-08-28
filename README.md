@@ -3,8 +3,8 @@
 ## Como executar o projeto: 
 
 -> Crie seu chatbot do telegram e use o **token** gerado no arquivo **.env** do projeto.  
--> Dê um **npm install** para baixar todas as dependências do projeto.  
--> Digite no terminal **npm start**   
+-> Dê um **yarn install** para baixar todas as dependências do projeto.  
+-> Digite no terminal **yarn start**   
 -> Para utilizar o Bot em uma conversa individual basta escrever **/start** e em seguida digitar os nomes dos produtos que deseja adicionar na lista.  
 -> Para Utilizar o Bot em grupo é necessário adicioná-lo a algum grupo e pra adicionar itens na lista é necessário escrever **/nomeDoProduto**, por exemplo: para adicionar arroz escreva **/arroz**.  
 
